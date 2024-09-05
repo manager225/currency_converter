@@ -1,4 +1,5 @@
 module.exports = {
+  publicPath: `/currency_converter/`,
   configureWebpack: {
     devtool: 'source-map',
     optimization: {
