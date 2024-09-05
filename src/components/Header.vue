@@ -1,11 +1,11 @@
 <template>
   <header class="header">
-    <router-link to="/">
+    <router-link :to="{ name: 'Home' }">
       <img src="../assets/logo.png" class="header__logo" alt="logo" />
     </router-link>
     <nav class="header__nav">
-      <router-link class="header__nav-link" to="/">Главная</router-link>
-      <router-link class="header__nav-link" to="/convert">Конвертация</router-link>
+      <router-link class="header__nav-link" :to="{ name: 'Home' }">Главная</router-link>
+      <router-link class="header__nav-link" :to="{ name: 'Convert' }">Конвертация</router-link>
     </nav>
   </header>
 </template>

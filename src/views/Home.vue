@@ -27,7 +27,7 @@
   const navigateToConvert = (currency) => {
     const [from, to] = currency.split('-')
     router.push({
-      path: '/convert',
+      name: 'Convert',
       query: {
         from: from.toUpperCase(),
         to: to.toUpperCase()
