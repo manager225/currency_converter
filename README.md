@@ -15,7 +15,7 @@
 ### Клонируйте репозиторий:
     
 ```bash
-git clone https://github.com/ваш-репозиторий/currency_converter.git
+https://github.com/manager225/currency_converter.git
 ```
 ### Перейдите в директорию проекта:
     
